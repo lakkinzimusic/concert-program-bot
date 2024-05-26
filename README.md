@@ -1,7 +1,3 @@
-# Telegram Bot Boilerplate
-
-Telegram Bot Boilerplate based on Node.js and [Telegraf](https://github.com/telegraf/telegraf) framework.
-
 ## Before you start
 
 First rename `.env-sample` file to `.env` and fill in all necessary values.
@@ -18,8 +14,6 @@ For deployment just create `.env.prod` with your production values.
 ## Start your server
 
 ```
-yarn install
-yarn dev
-```
+npm install
+npm run dev
 
-Pull Requests are welcomed :)
